@@ -40,6 +40,7 @@ namespace Adactinapp.TestCases
         [TearDown]
         public void Close()
         {
+            Console.WriteLine("Finished execution");
             driver.Close();
         }
 
