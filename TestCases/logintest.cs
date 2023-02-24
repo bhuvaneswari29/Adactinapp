@@ -20,7 +20,7 @@ namespace Adactinapp.TestCases
         {
             driver = new ChromeDriver();
             driver.Url = "https://adactinhotelapp.com/";
-            
+            Console.WriteLine("Started the program");
 
             var loginpg = new LoginPages(driver);
             loginpg.loginAction();
